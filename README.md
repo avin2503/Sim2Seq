@@ -4,7 +4,7 @@ Author:
 **Avin Nayeri**
 
 Project:  
-**Bachelor End Project thesis**
+**Bachelor End Project**
 
 Degree:  
 **Bachelor of Science in Nanobiology**
