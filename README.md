@@ -1,5 +1,12 @@
 # Sim2Seq: developing DNA basecalling for MspA+Hel308 nanopore sequencing 
 
+Author: Avin Nayeri 
+Project: Bachelor End Project 
+Degree: Bachelor of Science in Nanobiology
+Institutions: TU Delft & Erasmus MC
+
+This code was developed as part of a Bachelor End Project thesis for the Nanobiology program at TU Delft and Erasmus MC, aiming to design and implement a DNA basecalling pipeline for MspA+Hel308 nanopore sequencing.
+
 ## Training Data Generation
 
 Sim2Seq provides three nanopore signal generators: SimGen_Ideal.py, SimGen_Noise.py, and SimGen_Realistic.py. In my thesis, the signal generation and training data preparation were described as separate components. However, for simplicity and usability, these have been integrated. Each of these files performs two key tasks: (1) Generates synthetic nanopore current signals based on a provided reference DNA genome and a 6-mer signal prediction model and (2) Automatically converts the simulated signals into the required .npy files (chunks, references, and reference_lengths) for training a Bonito basecalling model from scratch.
