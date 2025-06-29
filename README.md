@@ -1,8 +1,8 @@
 # Sim2Seq: developing DNA basecalling for MspA+Hel308 nanopore sequencing 
 
-## Signal Generator Usage
+## Training Data Generation
 
-Sim2Seq includes three signal generators that generate synthetic nanopore current signals from reference DNA sequences using a 6-mer signal prediction model.
+Sim2Seq includes three signal generator files: SimGen_Ideal.py, SimGen_Noise.py, and SimGen_Realistic.py which 1) generate nanopore current signals from a provided reference DNA genome and a 6-mer signal prediction model and 2) automatically converts these simulations into the three desired .npy files for Bonito model training from scratch. 
 
 ### Example code
 
