@@ -1,9 +1,17 @@
 # Sim2Seq: developing DNA basecalling for MspA+Hel308 nanopore sequencing 
 
-Author: Avin Nayeri 
-Project: Bachelor End Project 
-Degree: Bachelor of Science in Nanobiology
-Institutions: TU Delft & Erasmus MC
+Author:  
+**Avin Nayeri**
+
+Project:  
+**Bachelor End Project thesis**
+
+Degree:  
+**Bachelor of Science in Nanobiology**
+
+Institutions:  
+**TU Delft**  
+**Erasmus MC**
 
 This code was developed as part of a Bachelor End Project thesis for the Nanobiology program at TU Delft and Erasmus MC, aiming to design and implement a DNA basecalling pipeline for MspA+Hel308 nanopore sequencing.
 
