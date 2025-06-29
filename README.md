@@ -7,7 +7,6 @@ Sim2Seq includes three signal generator files: SimGen_Ideal.py, SimGen_Noise.py,
 ### Example code
 
 ```python
-import pandas as pd
 
 # Reference genome in FASTA (.fna) format
 reference_genome = 'path/to/reference_genome.fna'
