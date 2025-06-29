@@ -2,9 +2,9 @@
 
 ## Training Data Generation
 
-Sim2Seq includes three signal generator files: SimGen_Ideal.py, SimGen_Noise.py, and SimGen_Realistic.py which (1) generate nanopore current signals from a provided reference DNA genome and a 6-mer signal prediction model and (2) automatically converts these simulations into the three desired .npy files for Bonito model training from scratch. 
+Sim2Seq provides three nanopore signal generators: SimGen_Ideal.py, SimGen_Noise.py, and SimGen_Realistic.py. In my thesis, the signal generation and training data preparation were described as separate components. However, for simplicity and usability, these have been integrated. Each of these files performs two key tasks: (1) Generates synthetic nanopore current signals based on a provided reference DNA genome and a 6-mer signal prediction model and (2) Automatically converts the simulated signals into the required .npy files (chunks, references, and reference_lengths) for training a Bonito basecalling model from scratch.
 
-### Example code
+### Template code to use the signal generators 
 
 ```python
 
