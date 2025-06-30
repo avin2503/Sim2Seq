@@ -11,8 +11,8 @@ import concurrent.futures
 import matplotlib.pyplot as plt
 
 def normalize_signal(signal):
-    mean = 63.63331112435138 # can be changed if needed, depending on dataset
-    std = 10.705338783244988 # can be changed if needed, depending on dataset
+    mean = 63.63 # can be changed if needed, depending on dataset
+    std = 10.71 # can be changed if needed, depending on dataset
     std = std if std != 0 else 1
     normalized = (signal - mean) / std
     return normalized
